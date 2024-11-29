@@ -1,0 +1,36 @@
+.jumbotron{
+    padding-top: 2rem;
+    background-color:rgb(76, 163, 239);
+}
+
+#projects {
+    background-color:#4ca3ef;
+}
+
+footer {
+    margin-top: 50px;
+}
+/* Menghilangkan margin dan padding default pada body dan elemen lain */
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Menghindari overflow horizontal */
+}
+
+/* Footer dengan latar belakang yang konsisten */
+footer {
+    margin: 0;
+    padding: 20px 0;
+    background-color: #5531e5; /* Sama dengan warna SVG */
+    border: 0; /* Menghilangkan border jika ada */
+    outline: none; /* Menghilangkan outline */
+}
+
+/* SVG dengan display block agar tidak ada spasi tambahan */
+svg {
+    margin: 0;
+    padding: 0;
+    display: block;
+    border: 0; /* Menghilangkan border */
+    outline: none; /* Menghilangkan outline */
+}
